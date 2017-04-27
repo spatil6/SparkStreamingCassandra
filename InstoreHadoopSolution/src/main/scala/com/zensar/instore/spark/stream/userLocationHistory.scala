@@ -1,4 +1,4 @@
-package com.zensar.instore.spark.stream
+package com.instore.spark.stream
 
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.streaming.kafka010._
