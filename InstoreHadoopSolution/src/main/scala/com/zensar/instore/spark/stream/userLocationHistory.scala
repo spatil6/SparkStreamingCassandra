@@ -46,7 +46,7 @@ object userLocationHistory {
     val ssc = new StreamingContext(conf, Seconds(10))
 
     val kafkaParams = Map[String, Object](
-      "bootstrap.servers" -> "ec2-35-160-140-182.us-west-2.compute.amazonaws.com:9092",
+      "bootstrap.servers" -> "xxxx:9092",
       "key.deserializer" -> classOf[StringDeserializer],
       "value.deserializer" -> classOf[StringDeserializer],
       "group.id" -> "use_a_separate_group_id_for_each_stream",
